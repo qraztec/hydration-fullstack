@@ -1,11 +1,11 @@
 'use client';
-import React, { useState, useEffect } from 'react';
+//import React, { useState, useEffect } from 'react';
 import Navbar from '../components/Navbar';
 import StationMonitor from '../components/StationMonitor';
 import { useStationContext } from '../../context/StationContext';
 
 function Dashboard() {
-  const { stations, selectedStation, setSelectedStation } = useStationContext();
+  const { selectedStation, setSelectedStation } = useStationContext();
 
   const handleStationSelect = (station) => {
     setSelectedStation(station);

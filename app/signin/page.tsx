@@ -34,7 +34,7 @@ function SignIn() {
         // Redirect to the dashboard after stations are loaded
         router.push("/dashboard");
       } catch (error) {
-        setError('Failed to load stations. Please try again.'); // Show an error message if stations can't be loaded
+        setError(error); // Show an error message if stations can't be loaded
       } finally {
         setLoading(false); // Stop loading after the process is finished
       }
@@ -82,7 +82,7 @@ function SignIn() {
           </form>
           <div className="divider">OR</div>
           <div className="text-center">
-            <p>Don't have an account?</p>
+            <p>Don&apos;t have an account?</p>
             <a href="#" className="link link-primary">Sign up now</a>
           </div>
         </div>
