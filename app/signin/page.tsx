@@ -42,7 +42,7 @@ function SignIn() {
       setError('Invalid credentials. Please try again.');
     }
   };
-
+  //Signin box design
   return (
     <div className="bg-base-200 flex items-center justify-center min-h-screen">
       <div className="card w-96 bg-base-100 shadow-xl rounded-2xl">
