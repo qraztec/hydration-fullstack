@@ -91,11 +91,7 @@ The application provides several API endpoints to interact with the hydration st
 ## Future Improvements
 - Implement more granular role-based access control.
 - Integrate real-time WebSocket communication for live updates without page reloads.
-- Improve the user interface for mobile users.
+- Potentially migrate to AWS
+- Fully implement d3.js data visualization
 
-## Contributing
-Contributions are welcome! Please fork the repository and submit a pull request with your changes.
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for more details.
 
